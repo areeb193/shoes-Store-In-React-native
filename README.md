@@ -10,8 +10,7 @@
   [![Node.js](https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=nodedotjs&logoColor=white)](https://nodejs.org/)
   [![Express](https://img.shields.io/badge/Express-000000?style=for-the-badge&logo=express&logoColor=white)](https://expressjs.com/)
   [![MongoDB](https://img.shields.io/badge/MongoDB-47A248?style=for-the-badge&logo=mongodb&logoColor=white)](https://www.mongodb.com/)
-  [![Firebase](https://img.shields.io/badge/Firebase-FFCA28?style=for-the-badge&logo=firebase&logoColor=black)](https://firebase.google.com/)
-  [![Cloudinary](https://img.shields.io/badge/Cloudinary-3448C5?style=for-the-badge&logo=cloudinary&logoColor=white)](https://cloudinary.com/)
+  
   [![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white)](https://www.typescriptlang.org/)
   
 </div>
@@ -86,14 +85,13 @@ Built with cutting-edge mobile technology, Stride Zone offers a seamless experie
 - **RESTful API**: Clean API architecture for client-server communication
 
 ### Database & Storage
-- **MongoDB**: NoSQL database for flexible data storage
+- 
 - **Supabase**: Backend-as-a-Service for real-time data synchronization
-- **Cloudinary**: Cloud-based media management for images and videos
+
 - **AsyncStorage**: Local storage for offline data persistence
 
 ### Authentication & Security
-- **Firebase Authentication**: Secure user authentication and authorization
-- **JWT (JSON Web Tokens)**: Token-based authentication system
+- **Supabase Authentication**: Secure user authentication and authorization
 
 ### Additional Tools
 - **Lottie**: Beautiful animations for enhanced user experience
@@ -134,36 +132,10 @@ Follow these steps to get Stride Zone running on your local machine:
    yarn install
    ```
 
-3. **Set up environment variables**
-   
-   Create a `.env` file in the root directory by copying the example file:
-   ```bash
-   cp .env.example .env
-   ```
-   
-   Then update the `.env` file with your credentials:
-   ```env
-   # Firebase Configuration
-   FIREBASE_API_KEY=your_firebase_api_key
-   FIREBASE_AUTH_DOMAIN=your_firebase_auth_domain
-   FIREBASE_PROJECT_ID=your_firebase_project_id
-   
-   # MongoDB
-   MONGODB_URI=your_mongodb_connection_string
-   
-   # Cloudinary
-   CLOUDINARY_CLOUD_NAME=your_cloudinary_cloud_name
-   CLOUDINARY_API_KEY=your_cloudinary_api_key
-   CLOUDINARY_API_SECRET=your_cloudinary_api_secret
-   
-   # JWT Secret
-   JWT_SECRET=your_jwt_secret_key
-   
-   # API URL
-   API_URL=http://localhost:3000
-   ```
 
-4. **Start the development server**
+ 
+
+3. **Start the development server**
    ```bash
    npm start
    ```
@@ -173,7 +145,7 @@ Follow these steps to get Stride Zone running on your local machine:
    npx expo start
    ```
 
-5. **Run on your device or simulator**
+4. **Run on your device or simulator**
    
    After starting the development server, you'll see a QR code in your terminal. You can:
    
